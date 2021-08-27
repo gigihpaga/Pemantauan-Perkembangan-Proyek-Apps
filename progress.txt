@@ -1,0 +1,4 @@
+dokumentasi -> pic_ba -> tampil:full -> role-button-tampil: null, qcfailed, docprogres, userreject -> button (docprogres, docdone)
+developer -> pic_dev -> tampil:decdone, devprogres, devdone -> role-button-tampil -> docprogres, devprogres -> button (devprogres, devdone)
+qc -> pic_qc -> tampil:devprogres, qcfailed, qcaccept -> role-button-tampil -> devdone, qcprogres, qcfailed, qcaccept -> button (qcprogres, qcfailed, qcaccept)
+user -> pic_user -> tampil: useraccept, userreject, qcaccept -> role-button-tampil -> qcaccept -> button (useraccept, userreject)
